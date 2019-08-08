@@ -1,7 +1,7 @@
 /*! Copyright (c) Jonas Mosbech - https://github.com/jmosbech/StickyTableHeaders
 	MIT license info: https://github.com/jmosbech/StickyTableHeaders/blob/master/license.txt */
 
-;(function ($, window, undefined) {
+module.exports = function ($, window, undefined) {
 	'use strict';
 
 	var name = 'stickyTableHeaders',
@@ -322,4 +322,4 @@
 		});
 	};
 
-})(jQuery, window);
+}
